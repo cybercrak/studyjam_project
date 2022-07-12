@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GDG</string>
+    <string name="movie_name">Movie_Name</string>
+    <string name="movie_genre">Movie_Genre</string>
+</resources>
