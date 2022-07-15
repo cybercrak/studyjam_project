@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val movieList = arrayListOf<Movies>()
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie1","Action"))
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie2","Romance"))
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie3","General"))
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie4","Action"))
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie5","Romance"))
-        movieList.add(Movies(R.drawable.ic_launcher_foreground,"Movie6","General"))
+        movieList.add(Movies(R.drawable.batman,"The Batman","Action"))
+        movieList.add(Movies(R.drawable.alaipayuthey,"Alaipayuthey","Romance"))
+        movieList.add(Movies(R.drawable.nanban,"Nanban","General"))
+        movieList.add(Movies(R.drawable.kgf2,"KGF 2","Action"))
+        movieList.add(Movies(R.drawable.english_romance,"English","Romance"))
+        movieList.add(Movies(R.drawable.m_chips,"Murungaikai chips","General"))
 
         val recyclerView = findViewById<RecyclerView>(R.id.list)
         val adapter = Movieadapter(movieList)
